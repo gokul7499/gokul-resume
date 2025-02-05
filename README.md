@@ -11,7 +11,7 @@
 <p align="center">
   A highly customizable React-based portfolio template to showcase your skills, projects, and experience. This template features a modern, clean design, responsive layout, and easy-to-edit content, enabling you to highlight your work effectively.  
   <br><br>
-  🌐 **Live Preview:** [Check out my portfolio](https://sakilk130.vercel.app/)
+  🌐 **Live Preview:** [Check out my portfolio](https://gokul7499.github.io/)
 </p>
 
 ---
@@ -41,7 +41,7 @@ Make sure you have the following installed on your local machine:
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/sakilk130/react-portfolio-website.git
+   git clone https://github.com/gokul7499/MyResume.git
    ```
 
 2. Navigate into the project directory:
@@ -100,7 +100,7 @@ You can deploy your portfolio using any of the following services:
 
 ## 🤝 Contributing
 
-Contributions are welcome! If you encounter any issues or have ideas for improvements, feel free to [open an issue](https://github.com/sakilk130/react-portfolio-website/issues) or submit a pull request. Your feedback is greatly appreciated.
+Contributions are welcome! If you encounter any issues or have ideas for improvements, feel free to [open an issue](https://github.com/gokul7499/MyResume.git) or submit a pull request. Your feedback is greatly appreciated.
 
 ---
 
