@@ -1,13 +1,22 @@
-import React from 'react';
-import Particles from 'react-particles-js';
-import { useStyles } from './styles/particles';
+import React, { useCallback } from "react";
+import Particles from "react-tsparticles";
+import { loadSlim } from "tsparticles-slim"; // Ensure this is correctly imported
+import { useStyles } from "./styles/particles";
 
 const CustomParticles = () => {
   const classes = useStyles();
+
+  const particlesInit = useCallback(async (engine) => {
+    console.log("Initializing tsParticles...");
+    await loadSlim(engine); // Ensure correct initialization
+  }, []);
+
   return (
     <Particles
+      id="tsparticles"
+      init={particlesInit}
       canvasClassName={classes.Particles}
-      params={{
+      options={{
         particles: {
           number: {
             value: 45,
@@ -17,10 +26,10 @@ const CustomParticles = () => {
             },
           },
           shape: {
-            type: 'circle',
+            type: "circle",
             stroke: {
               width: 1,
-              color: 'tomato',
+              color: "tomato",
             },
           },
           size: {

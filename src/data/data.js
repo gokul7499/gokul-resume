@@ -1,11 +1,11 @@
 import { GitHub, LinkedIn } from '@material-ui/icons';
 
 export const heroInfo = {
-  name: 'Sakil Khan',
+  name: 'Gokul Gudaghe',
   image: '/images/myImage.jpeg',
   title: [
     'Full Stack Developer',
-    'MERN Stack Developer',
+    'Wix Studio Developer',
     'Software Engineer',
     'React Developer',
     'Node.js Developer',
@@ -15,15 +15,15 @@ export const heroInfo = {
       id: 1,
       name: 'GitHub',
       icon: GitHub,
-      username: 'sakilk130',
-      link: 'https://github.com/sakilk130',
+      username: 'Gokul7499',
+      link: 'https://github.com/gokul7499',
     },
     {
       id: 2,
       name: 'LinkedIn',
       icon: LinkedIn,
-      username: 'sakil-khan-076926145',
-      link: 'https://www.linkedin.com/in/sakil-khan-076926145/',
+      username: 'Gokul Gudaghe',
+      link: 'www.linkedin.com/in/gokul-gudaghe-8319b8262/',
     },
   ],
 };
@@ -31,52 +31,52 @@ export const heroInfo = {
 export const resumes = [
   {
     id: 1,
-    year: 'July 2023 - Present',
-    role: 'Software Specialist',
-    companyName: 'SSL Wireless',
-    companyUrl: 'https://www.sslwireless.com/',
+    year: 'Nov 2024 - Present',
+    role: 'Wix Studio',
+    companyName: 'Mahindra Technosoft Ltd',
+    companyUrl: 'https://www.mahendratechnosoft.com/',
     description:
-      'SSL Wireless is recognized for its rapid development and efficient project execution by working with industry-standard technologies. SSL Wireless mounts on its decade long industry experience, superior technical skills and highest quality of support services to provide scalable IT solutions as a leading Software development and services company. It has deep infiltration in the Value-Added Services, Banking, Corporate, and FinTech industry of Bangladesh.',
+      'A Wix Studio developer with one year of experience in front-end development has a strong grasp of building dynamic websites using the Wix platform’s tools and features. They are proficient in customizing pre-built templates, working with the drag-and-drop editor, and integrating advanced functionalities such as animations, custom code (via Velo), and third-party apps. Over the year.',
   },
   {
     id: 2,
-    year: 'March 2022 - June 2023',
-    role: 'Software Engineer',
-    companyName: 'Sheba Technologies Ltd.',
-    companyUrl: 'https://www.shebatech.com.bd/',
+    year: 'May 2023 - June 2024',
+    role: 'FrontEnd Deverloper',
+    companyName: 'The Baap Comapany Ltd.',
+    companyUrl: 'https://baapcompany.com/',
     description:
-      'Sheba Technologies Limited (STL) is part of the Sheba Group conglomerate which has been in Tech business for almost quarter of a century. STL is fully committed to bring world class technologically advanced Business Process Automation by delivering architecturally superior Software solution, Off-the-Shelf customizable Software, Artificial Intelligence and Machine Learning to our esteemed clients who are also our long-term strategic partners.',
+      'Frameworks like React, Angular, or Vue.js. Over the course of the year, they likely worked on creating responsive and user-friendly interfaces, ensuring that websites and applications are both visually appealing and functional across different devices and browsers.',
   },
   {
     id: 3,
-    year: 'January 2021 - February 2022',
-    role: 'Software Engineer',
-    companyName: 'PAP International Ltd.',
-    companyUrl: 'http://papint.asia/',
+    year: 'Aug 2022 - may 2023',
+    role: 'Website Design',
+    companyName: 'The Baap Company Ltd.',
+    companyUrl: 'https://baapcompany.com/',
     description:
-      'PAP International is a Technology development and Business solution provider that covers all areas of the Industries.The company is now fully setup and operating in Bangladesh as an extension of the parent company in UK.',
+      'The BAAP Company, based in Paregaon Khurd, Sangamner Tehsil, MH (422611), started as a software service provider for national and international clients. Facing a talent shortage due to rural brain drain, BAAP set up a training institute to educate local youth in software development.',
   },
 ];
 
 export const educations = [
   {
     id: 1,
-    year: 'January 2017 - August 2021',
-    universityName: 'American International University-Bangladesh (AIUB)',
-    department: 'Bachelor of Science in Computer Science & Engineering',
+    year: 'August 2022 - Present',
+    universityName: 'Univesity of Mysore',
+    department: 'Bachelor of Computer Application',
     description: '',
   },
   {
     id: 2,
-    year: 'April 2014 - December 2016',
-    universityName: 'Shahmukhdum College, Rajshahi',
+    year: 'April 2020 - December 2022',
+    universityName: 'Savitribai phule pune university',
     department: 'Higher Secondary School Certificate',
     description: '',
   },
   {
     id: 3,
-    year: 'January 2009 - December 2013',
-    universityName: 'Asian School & College, Nachole',
+    year: 'January 2014 - December 2020',
+    universityName: 'savitribai phule pune university',
     department: 'Secondary School Certificate',
     description: '',
   },
@@ -86,36 +86,20 @@ export const projects = [
   {
     id: 1,
     image: '/images/todoAppReactWithFirebase.png',
-    name: 'Todo App',
-    description: `This is a simple Todo app. You can store your todo list. Also you can Add, Edit,\
-     Delete and View. As front end I used JavaScript library called 'React'. For designing I used\
-     'Material-UI'. And Realtime Database or Cloud Firestore I used 'Firebase'. That's why the app is \
-     so faster and robust.`,
-    tools: ['javascript', 'react', 'firebase'],
-    live: 'https://react-firebase-todo-app-d37d1.web.app/',
-    source: 'https://github.com/sakilk130/react-firebase-todo-app',
+    name: 'Royal Shetkari',
+    description: `The Royal Shetkari IT Company website has a professional and modern design. At the top, there is a navigation bar with options like Home, About, Internship, Farming, and Services. The main banner features an image of a team working together, with the text "Welcome to Royal Shetkari IT Company" and a "Learn More" button.`,
+    tools: ['javascript', 'react Js'],
+    live: 'https://gokul7499.github.io/Shetkari/',
+    source: 'https://github.com/gokul7499/Shetkari.git',
   },
   {
     id: 2,
     image: '/images/reactWeatherApp.png',
-    name: 'Weather App',
-    description: `This is a Weather app. Where you can search a city and see current weather temperature, \
-    wind speed etc. As front end I used JavaScript library called 'React'. I used 'OpenWeather' APIs For request \
-    data and  display data.`,
+    name: 'Chat Website ',
+    description: `The chat website is designed to provide seamless and efficient communication between users. It features a clean and user-friendly interface, allowing real-time messaging with instant delivery. The website supports multiple users, ensuring smooth conversations with features like message notifications and typing indicators.`,
     tools: ['javascript', 'react'],
     live: 'https://react-weather-app-v1.netlify.app/',
     source: 'https://github.com/sakilk130/react-weather-app',
-  },
-  {
-    id: 3,
-    image: '/images/portfolioUsingReact.png',
-    name: 'My Portfolio Website',
-    description: `This is my Portfolio Website. Also this is a part of projects. Where people can see some information \
-    about me. There are 6 pages like Home, Resume, Portfolio, Contacts, Skills and Educations. For this project i \
-    used 'React' for front end and 'Material-UI'.`,
-    tools: ['javascript', 'react'],
-    live: 'https://sakilkhan.netlify.app/',
-    source: 'https://github.com/sakilk130/react-portfolio-website',
   },
 ];
 
@@ -142,8 +126,8 @@ export const skills = [
     logo: 'https://www.vectorlogo.zone/logos/typescriptlang/typescriptlang-icon.svg',
   },
   {
-    title: 'Firebase',
-    logo: 'https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg',
+    title: 'Wix Studio',
+    logo: 'https://e7.pngegg.com/pngimages/258/411/png-clipart-wix-round-logo-tech-companies-thumbnail.png',
   },
   {
     title: 'Bootstrap',
@@ -161,7 +145,7 @@ export const skills = [
 
   {
     title: 'Material-UI',
-    logo: 'https://camo.githubusercontent.com/cf05625198fe7b6ad8a302d1ce16bc99b93ec2ac/68747470733a2f2f6d6174657269616c2d75692e636f6d2f7374617469632f6c6f676f2e737667',
+    logo: 'https://static-00.iconduck.com/assets.00/material-ui-icon-2048x1626-on580ia9.png',
   },
 
   {
@@ -174,7 +158,7 @@ export const skills = [
   },
   {
     title: 'VS Code',
-    logo: 'https://cdn.worldvectorlogo.com/logos/visual-studio-code.svg',
+    logo: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQuER1tOoBap4qZ8V7OUsbf-quqFfEjj3Jnzg&s',
   },
 
   {
@@ -186,10 +170,7 @@ export const skills = [
     title: 'Git',
     logo: 'https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg',
   },
-  {
-    title: 'Linux',
-    logo: 'https://www.freepnglogos.com/uploads/linux-png/file-icons-flat-linux-svg-wikimedia-commons-6.png',
-  },
+
   {
     title: 'npm',
     logo: 'https://www.vectorlogo.zone/logos/npmjs/npmjs-icon.svg',
