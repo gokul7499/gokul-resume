@@ -31,7 +31,7 @@ const Navbar = () => {
             <ClearAll className={classes.clearAll} />
           </IconButton>
           <Typography variant="h5">
-            <Link to="/" className={classes.title}>
+            <Link to="/MyResume" className={classes.title}>
               {heroInfo.name}
             </Link>
           </Typography>
