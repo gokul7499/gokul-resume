@@ -25,7 +25,7 @@ const menuItems = [
   {
     listIcon: <Home />,
     listText: 'Home',
-    listPath: '/',
+    listPath: '/MyResume',
   },
   {
     listIcon: <AssignmentInd />,
@@ -58,11 +58,12 @@ const SliderItems = ({ toggleSlide }) => {
   const classes = useStyles();
   return (
     <Box component="div" className={classes.menuSlide} onClick={toggleSlide}>
-      <Avatar
-        className={classes.myImage}
-        src="/images/myImage.jpeg"
-        alt={heroInfo.name}
-      />
+     <Avatar
+  className={classes.myImage}
+  src={process.env.PUBLIC_URL + "/images/myImage.jpeg"}
+  alt={heroInfo.name}
+/>
+
       <Divider />
       <List>
         {menuItems.map((item) => (
