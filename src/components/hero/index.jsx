@@ -19,7 +19,7 @@ const Hero = () => {
         />
       </Grid>
       <Typography className={classes.title} variant="h4">
-        <Typed strings={[heroInfo.name]} typeSpeed={100} />
+        <Typed strings={[heroInfo.title]} typeSpeed={100} />
       </Typography>
       <br />
       <Typography className={classes.subtitle} variant="h5">
