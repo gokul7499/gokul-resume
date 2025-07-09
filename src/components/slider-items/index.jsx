@@ -60,7 +60,7 @@ const SliderItems = ({ toggleSlide }) => {
     <Box component="div" className={classes.menuSlide} onClick={toggleSlide}>
      <Avatar
   className={classes.myImage}
-  src={process.env.PUBLIC_URL + "/images/myImage.jpeg"}
+  src={process.env.PUBLIC_URL + "/images/myImage.jpg"}
   alt={heroInfo.name}
 />
 

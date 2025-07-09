@@ -2,7 +2,7 @@ import { GitHub, LinkedIn } from '@material-ui/icons';
 
 export const heroInfo = {
   name: 'Gokul Gudaghe',
-  image: process.env.PUBLIC_URL + '/images/myImage.jpeg',
+  image: process.env.PUBLIC_URL + '/images/.jpeg',
   title: [
     'Full Stack Developer',
     'Wix Studio Developer',
