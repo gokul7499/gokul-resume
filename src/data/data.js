@@ -85,21 +85,37 @@ export const educations = [
 export const projects = [
   {
     id: 1,
-    image: '/images/todoAppReactWithFirebase.png',
-    name: 'Royal Shetkari',
-    description: `The Royal Shetkari IT Company website has a professional and modern design. At the top, there is a navigation bar with options like Home, About, Internship, Farming, and Services. The main banner features an image of a team working together, with the text "Welcome to Royal Shetkari IT Company" and a "Learn More" button.`,
+    image: '/images/portfolio.jpg',
+    name: 'Portfolio',
+    description: `I specialize in building responsive and user-friendly web applications using technologies like React.js, Node.js, PostgreSQL, and Tailwind CSS. With a strong foundation in front-end and back-end development, I enjoy turning ideas into real-world solutions that are efficient and scalable.`,
     tools: ['javascript', 'react Js'],
-    live: 'https://gokul7499.github.io/Shetkari/',
+    live: 'https://gokulgudaghe.netlify.app',
     source: 'https://github.com/gokul7499/Shetkari.git',
   },
   {
     id: 2,
-    image: '/images/reactWeatherApp.png',
-    name: 'Chat Website ',
-    description: `The chat website is designed to provide seamless and efficient communication between users. It features a clean and user-friendly interface, allowing real-time messaging with instant delivery. The website supports multiple users, ensuring smooth conversations with features like message notifications and typing indicators.`,
-    tools: ['javascript', 'react'],
-    live: 'https://react-weather-app-v1.netlify.app/',
-    source: 'https://github.com/sakilk130/react-weather-app',
+    image: '/images/food.jpg',
+    name: 'Food Delivery ',
+    description: `Delicious meals delivered to your door — browse,
+     choose, and enjoy fresh food anytime, anywhere.
+     Your go-to food hub — breakfast, soups, pasta & more, just a tap away.
+     Fresh, fast, and flavorful — your favorite meals delivered with care.
+     Craving something good? Order fresh meals in just a few taps!
+     `,
+    tools: ['javascript','Node Js', 'react'],
+    live: 'https://gokul-food.netlify.app/',
+    source: 'https://github.com/gokul7499/FoodDelivery',
+  },
+    {
+    id: 3,
+    image: '/images/ERP.png',
+    name: 'ERP Admin Panel ',
+    description: `The ERP Admin Panel is a centralized dashboard designed to efficiently manage business operations such as users, inventory, reports, and settings.
+It provides a secure, responsive, and user-friendly interface to monitor and control various modules..
+     `,
+    tools: ['javascript','Node Js', 'react'],
+    live: 'https://admin-panel-gokul.netlify.app/',
+    source: 'https://github.com/gokul7499/admin',
   },
 ];
 
