@@ -11,21 +11,33 @@ const Hero = () => {
 
   return (
     <Box className={classes.typedContainer}>
-      <Grid container justify="center">
+      <Grid container justifyContent="center">
         <Avatar
           className={classes.avater}
           src={heroInfo.image}
           alt={heroInfo.name}
         />
       </Grid>
+
       <Typography className={classes.title} variant="h4">
-        <Typed strings={[heroInfo.name ]} typeSpeed={100} />
+        <Typed
+          strings={Array.isArray(heroInfo.name) ? heroInfo.name : [heroInfo.name]}
+          typeSpeed={100}
+        />
       </Typography>
+
       <br />
+
       <Typography className={classes.subtitle} variant="h5">
-        <Typed strings={heroInfo.title} typeSpeed={70} backSpeed={60} loop />
-        <HeroDetails contacts={heroInfo.contacts} />
+        <Typed
+          strings={Array.isArray(heroInfo.title) ? heroInfo.title : [String(heroInfo.title)]}
+          typeSpeed={70}
+          backSpeed={60}
+          loop
+        />
       </Typography>
+
+      <HeroDetails contacts={heroInfo.contacts} />
     </Box>
   );
 };
