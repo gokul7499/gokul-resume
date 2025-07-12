@@ -5,16 +5,18 @@ import {
   Divider,
   List,
   ListItem,
+ 
   ListItemIcon,
   ListItemText,
 } from '@material-ui/core';
+import EmojiEvents from '@material-ui/icons/EmojiEvents'; 
 import { useStyles } from './styles/slider-items';
 import {
   Apps,
   AssignmentInd,
   Build,
   ContactMail,
-  Home,
+ 
   School,
 } from '@material-ui/icons';
 import { Link } from 'react-router-dom';
@@ -22,11 +24,7 @@ import { Link } from 'react-router-dom';
 import { heroInfo } from '../../data/data';
 
 const menuItems = [
-  {
-    listIcon: <Home />,
-    listText: 'Home',
-    listPath: '/MyResume',
-  },
+ 
   {
     listIcon: <AssignmentInd />,
     listText: 'Resume',
@@ -51,6 +49,11 @@ const menuItems = [
     listIcon: <ContactMail />,
     listText: 'Contacts',
     listPath: '/contacts',
+  },
+    {
+    listIcon: <EmojiEvents />,
+    listText: 'Certifaction',
+    listPath: '/certification',
   },
 ];
 

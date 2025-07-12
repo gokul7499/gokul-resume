@@ -25,7 +25,7 @@ const Navbar = () => {
 
   return (
     <Box component="nav">
-      <AppBar position="static" className={classes.appBar}>
+      <AppBar position="fixed" className={classes.appBar}>
         <Toolbar>
           <IconButton onClick={toggleSlide} aria-label="Menu">
             <ClearAll className={classes.clearAll} />

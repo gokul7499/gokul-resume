@@ -111,12 +111,42 @@ export const projects = [
     image: '/images/ERP.png',
     name: 'ERP Admin Panel ',
     description: `The ERP Admin Panel is a centralized dashboard designed to efficiently manage business operations such as users, inventory, reports, and settings.
-It provides a secure, responsive, and user-friendly interface to monitor and control various modules..
+It provides a secure, responsive, and user-friendly interface to monitor and control various modules.dashboard designed to efficiently manage.
      `,
     tools: ['javascript','Node Js', 'react'],
     live: 'https://admin-panel-gokul.netlify.app/',
     source: 'https://github.com/gokul7499/admin',
   },
+];
+
+export const certificates = [
+  {
+    id: 1,
+    title: 'AWS Developer Certification',
+    issuer: 'AWS Simplilearn',
+    date: '11th July 2025',
+    certificateUrl: 'https://simpli-web.app.link/e/6sV6s5vdVUb',
+    description: 'Completed a comprehensive course covering AWS Cloud technologies.',
+  },
+  {
+    id: 2,
+    title: 'React Js Developer Certification',
+    issuer: 'Simplilearn',
+    date: '13 Jun 2025',
+    certificateUrl: 'https://simpli-web.app.link/e/BWBnWqllWUb',
+    description: 'Learned advanced React concepts and built several real-world projects.',
+  },
+
+    {
+    id: 3,
+    title: 'BlockChain Developer Certification',
+    issuer: 'Blockchain Pathshala',
+    date: '1 April 2024',
+    certificateUrl: 'https://www.linkedin.com/feed/update/urn:li:activity:7349444316076912641/?commentUrn=urn%3Ali%3Acomment%3A(activity%3A7349444316076912641%2C7349738935067070464)&dashCommentUrn=urn%3Ali%3Afsd_comment%3A(7349738935067070464%2Curn%3Ali%3Aactivity%3A7349444316076912641)',
+    description: 'Learned Basic BlockChai concepts and built several real-world projects.',
+  },
+  // Add
+  //  more certificates as needed
 ];
 
 export const skills = [
@@ -196,3 +226,10 @@ export const skills = [
     logo: 'https://www.vectorlogo.zone/logos/github/github-icon.svg',
   },
 ];
+
+
+// ...existing code...
+
+
+
+// ...existing code...
